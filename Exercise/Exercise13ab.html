@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise 13</title>
+    <style>
+        .flexbox {
+        display: flex;
+        border-style: solid;
+        border-width: 1px;
+        flex-direction: row;
+        height: 50px;
+        max-width: 300px;
+        }
+
+        .column1 {
+            background-color: lightpink;
+            width: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item1{
+            background-color: black;
+            color: white;
+        }
+
+        .column2{
+            background-color: lightblue;
+            width: 200px;
+        }
+
+        .flexbox2 {
+            display: flex;
+            height: 50px;
+            margin-top: 20px;
+            width: 300px;
+            flex-direction: row;
+        }
+
+        .column1b {
+            background-color: lightpink;
+            width: 100px;
+        }
+
+        .column2b {
+            background-color: lightblue;
+            width: 200px;
+        }
+
+        .row2b {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .row2-item {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div class="column1">
+            <div class="item1">Item 1</div>
+        </div>
+        <div class="column2"></div>
+    </div>
+
+    <div class="flexbox2">
+        <div class="column1b"></div>
+        <div class="column2b">
+            <div>row 1b</div>
+            <div class="row2b">
+                <div class="row2-item">row 2</div>
+                <div class="row2-item2">row 2</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
